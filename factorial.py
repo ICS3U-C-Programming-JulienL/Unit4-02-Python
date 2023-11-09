@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
+
 # Created By: Julien Lamoureux
-# Date: November 5, 2023
+# Date: November 8, 2023
 # This program displays the factorial of all the numbers from 0 to the user's number
 
 
@@ -29,12 +30,13 @@ def main():
                 # display the tracking of the loop
                 print("Tracking {} times through loop".format(counter))
 
-                # add the counter to the sum
+                # multiply the counter to the factorial
                 factorial = factorial * counter
 
                 # increment the counter
                 counter = counter + 1
                 if counter > user_num_int:
+                    # if the counter is greater than the user num, stop the loop
                     break
 
             # display the factorial of all the numbers from 0 to the user's number
